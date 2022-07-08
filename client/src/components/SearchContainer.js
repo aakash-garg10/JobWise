@@ -32,7 +32,7 @@ const SearchContainer = () => {
 
           <FormRow
             type='text'
-            name='search'
+            name='search position'
             value={search}
             handleChange={handleSearch}
           />

@@ -60,15 +60,15 @@ const AddJob = () => {
             value={company}
             handleChange={handleJobInput}
           />
-          {/* location */}
+          {/* location || nextInteraction */}
           <FormRow
-            type='text'
-            labelText='job location'
+            type='date'
+            labelText='Next Interaction'
             name='jobLocation'
             value={jobLocation}
             handleChange={handleJobInput}
           />
-          {/* job status */}
+          {/* job status */} 
           <FormRowSelect
             name='status'
             value={status}
